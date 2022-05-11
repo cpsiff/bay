@@ -67,7 +67,6 @@ Re-run `jekyll serve` to see the header updated.
 Open the `_config.yml` file and add the following:
 ```yml
 footer:
-  show_powered_by: true
   contact:
     - name: Email
       value: yourmail@domain.com
