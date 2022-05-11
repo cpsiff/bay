@@ -12,6 +12,7 @@
           {{ content }}
 
           {% for section in page.sections %}
+            <header class="post-header"> {{ section.title }} </header>
             {% for item in section.items %}
             <div class="work-item">
               <img
